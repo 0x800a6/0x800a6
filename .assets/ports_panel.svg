@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="200" viewBox="0 0 680 200">
+  <defs>
+    <style>
+      .mono { font-family:"JetBrains Mono","IBM Plex Mono",monospace; }
+      .label { fill:#8fb6cd; font-size:13px; letter-spacing:1px; }
+      .val { fill:#e8f0ff; font-size:18px; }
+      @keyframes pulse { 0%,100%{opacity:.7} 50%{opacity:1} }
+    </style>
+  </defs>
+  <rect width="100%" height="100%" rx="14" fill="#0b0f14" stroke="#2f3a44"/>
+  <text x="20" y="36" class="mono" fill="#e8f0ff" font-size="18">[ contact.ports ]</text>
+
+  <!-- port block -->
+    <g transform="translate(20,60)">
+      <!-- Discord icon -->
+      <g opacity=".85">
+        <rect x="0" y="0" width="44" height="44" rx="6" fill="#11161c" stroke="#33404d"/>
+        <g transform="translate(6,6)">
+          <rect x="0" y="0" width="32" height="32" rx="16" fill="#5865F2"/>
+          <path d="M16 8c-4.418 0-8 2.686-8 6v6c0 3.314 3.582 6 8 6s8-2.686 8-6v-6c0-3.314-3.582-6-8-6zm-2.5 10a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" fill="#fff"/>
+        </g>
+      </g>
+      <text x="60" y="16" class="mono label">uplink_primary</text>
+      <text x="60" y="36" class="mono val">discord → <tspan fill="#77e2ff">0x800a6</tspan></text>
+    </g>
+
+  <g transform="translate(20,122)">
+    <!-- Email icon -->
+    <g opacity=".85">
+      <rect x="0" y="0" width="44" height="44" rx="6" fill="#11161c" stroke="#33404d"/>
+      <g transform="translate(6,6)">
+        <rect x="0" y="0" width="32" height="32" rx="6" fill="#77e2ff"/>
+        <path d="M4 8v16c0 1.104.896 2 2 2h20c1.104 0 2-.896 2-2V8c0-1.104-.896-2-2-2H6c-1.104 0-2 .896-2 2zm2 0l10 8 10-8" fill="#18222c"/>
+        <path d="M4 8l10 8 10-8" stroke="#fff" stroke-width="2" fill="none"/>
+      </g>
+    </g>
+    <text x="60" y="16" class="mono label">uplink_secondary</text>
+    <text x="60" y="36" class="mono val">email → <tspan fill="#77e2ff">0x800a6@gmail.com</tspan></text>
+  </g>
+</svg>
+

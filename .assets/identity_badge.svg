@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="220" viewBox="0 0 540 220">
+  <defs>
+    <style>
+      .mono { font-family: "JetBrains Mono","IBM Plex Mono",monospace; }
+      .h { font-weight: 700; font-size: 20px; letter-spacing: 1px; }
+      .t { font-weight: 400; font-size: 14px; opacity:.9; }
+      @keyframes glow {
+        0%,100% { filter: drop-shadow(0 0 0px #77e2ff); }
+        50% { filter: drop-shadow(0 0 6px #77e2ff); }
+      }
+      @keyframes flicker { 0%,97%,100%{opacity:1} 98%{opacity:.3} 99%{opacity:.7} }
+    </style>
+  </defs>
+  <rect width="100%" height="100%" rx="14" fill="#0b0f14" stroke="#3a4754"/>
+  <rect x="10" y="10" width="520" height="200" rx="10" fill="none" stroke="#77e2ff" opacity=".45" style="animation:glow 3s infinite"/>
+  <text x="24" y="44" class="mono h" fill="#e8f0ff">[ identity.dat ]</text>
+  <g class="mono t" fill="#b7c6d9">
+    <text x="24" y="78"><tspan fill="#77e2ff">user_id</tspan>: Lexii</text>
+    <text x="24" y="102"><tspan fill="#77e2ff">status</tspan>: cosplayer | developer | hikikomori</text>
+    <text x="24" y="126"><tspan fill="#77e2ff">interests</tspan>: gaming, anime, manga, cosplay, music</text>
+    <text x="24" y="150"><tspan fill="#77e2ff">stack</tspan>: code &amp; hardware, reality &amp; the wired</text>
+    <text x="24" y="174" style="animation:flicker 6s infinite;">existence: oscillating_between(flesh, byte)</text>
+  </g>
+</svg>
+

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="24" viewBox="0 0 1200 24">
+  <style>
+    @keyframes jitter {
+      0% { transform: translateX(0); opacity: .9; }
+      30% { transform: translateX(-1px); }
+      60% { transform: translateX(1px); }
+      100% { transform: translateX(0); opacity: .9; }
+    }
+  </style>
+  <rect x="0" y="11" width="1200" height="2" fill="#2f3a44"/>
+  <rect x="0" y="11" width="1200" height="2" fill="#77e2ff" opacity="0.35" style="animation:jitter 1.4s infinite"/>
+</svg>

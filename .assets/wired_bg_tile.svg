@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="320" viewBox="0 0 640 320">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a0d10"/>
+      <stop offset="1" stop-color="#0c1116"/>
+    </linearGradient>
+    <style>
+      .wire { stroke:#2a3440; stroke-width:1.2; fill:none; opacity:.55 }
+      .node { fill:#77e2ff; opacity:.35 }
+    </style>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#g)"/>
+  <g>
+    <path class="wire" d="M-40,40 C120,20 220,80 340,60 460,40 560,80 680,60"/>
+    <path class="wire" d="M-60,120 C80,170 220,110 360,160 500,210 600,150 700,200"/>
+    <path class="wire" d="M-20,220 C100,250 240,200 380,240 520,280 620,230 720,260"/>
+    <circle class="node" cx="120" cy="60" r="2.5"/>
+    <circle class="node" cx="340" cy="60" r="2.5"/>
+    <circle class="node" cx="480" cy="160" r="2.5"/>
+    <circle class="node" cx="280" cy="240" r="2.5"/>
+    <circle class="node" cx="560" cy="240" r="2.5"/>
+  </g>
+  <!-- faint border -->
+  <rect x="2" y="2" width="636" height="316" rx="10" fill="none" stroke="#324253" opacity=".35"/>
+</svg>
+
