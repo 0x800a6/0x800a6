@@ -33,7 +33,6 @@ web: https://lrr.sh
 git: https://github.com/0x800a6  
 mail: lexi@lrr.sh  
 twitter: @lrr_dev
-matrix: @lrr.sh:matrix.org  
 
 ---
 
